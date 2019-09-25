@@ -10,6 +10,8 @@ A software company sells a package that retails for $99. Quantity discounts are 
 
 This program asks for the number of units sold and computes the total cost of the purchase, displays the discount and determines how many more units are required to be bought to apply the next discount.
 
+### https://github.com/pontesda/Portfolio/blob/master/softwareSales.cpp
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 # GEOMETRY CALCULATOR
