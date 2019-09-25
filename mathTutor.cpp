@@ -33,7 +33,6 @@ int main()
 			// get rid of failure state
 			cin.clear();
 
-			// From Eric's answer (thanks Eric)
 			// discard 'bad' character(s) 
 			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 		}
