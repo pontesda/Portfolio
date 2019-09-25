@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	// Variables for option selection.
-	double choice = 1,2,3,4;
+	int choice;
 	// Variables used for option 1.
 	double radius, circleArea;
 	// Variables used for option 2.
@@ -23,7 +23,7 @@ int main()
 	
 	switch (choice)
 	{
-		case '1' : cout << "What is the radius of the circle?" << endl;
+		case 1 : cout << "What is the radius of the circle?" << endl;
 			   cin >> radius;
 			   if (radius >= 0)
 			   {
@@ -34,8 +34,9 @@ int main()
 			   else
 				cout << "The radius must not be negative." << endl;
         cout << "------------------------------------------------------------" << endl;
+        break;
 	
-		case '2' : cout << "What is the length of the rectangle?" << endl;
+		case 2 : cout << "What is the length of the rectangle?" << endl;
 			   cin >> lengthRec;
 			   if (lengthRec >= 0)
 			   {
@@ -51,34 +52,30 @@ int main()
 			else
 				cout << "The length and the width must not be negative." << endl;
         cout << "------------------------------------------------------------" << endl;
+        break;
 	//Area of a Triangle
-		case '3' : cout << "What is the length of the triangle's base?" << endl;
-			   cin >> lengthTri;
-			   if (lengthTri >= 0)
-			   {
-				cout << "What is the height of the triangle?" << endl;
-				cin >> heightTri;
+		case 3 : cout << "What is the length of the triangle's base?" << endl;
+			     cin >> lengthTri;
+			     if (lengthTri >= 0)
+			{
+				 cout << "What is the height of the triangle?" << endl;
+				 cin >> heightTri;
 
 				if (heightTri >= 0)
 				{
 					areaTri = lengthTri * heightTri;
 					cout << "The area of the triangle is " << areaTri << endl;
           cout << "------------------------------------------------------------" << endl;
-				}
-			   }
+			    }
+			}
 			else
-				cout << "The height and length must not be negative." << endl <<;
-        cout "------------------------------------------------------------" << endl;
+				cout << "The height and length must not be negative." << endl << endl;
+        cout << "------------------------------------------------------------" << endl;
+        break;
 		//Quit the calculator
-		case '4' : return 0;
+		case 4 : return 0;
+		break;
+		default: cout << "You did not enter 1, 2, 3 or 4!\n";
 	}
-	else
-	{
-		//Invalid Input if userInput is not 1 or 2 or 3 or 4.
-			cout << "Invalid option." << endl;
-      cout << "------------------------------------------------------------" << endl;
-	}
-	//Return to main menu.
 	return main();
 }
-
