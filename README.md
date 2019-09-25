@@ -1,6 +1,6 @@
 # C++ Coding Projects
 
-[LinkedIn](https://www.linkedin.com/in/dillonpontes/)
+[LinkedIn Profile](https://www.linkedin.com/in/dillonpontes/)
 
 --------------------------------------------------------------------------------------------------------------------------------
 
