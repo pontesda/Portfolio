@@ -46,3 +46,9 @@ A program that asks the user for an angle, entered in radians. The program then 
 MATH TUTOR
 
 A program that can be used as a math tutor for a young student. The program displays two random numbers to be added. The program then pauses while the student works on the problem. When the student is ready to check the answer, he or she can press a key and the program will display the correct solution.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+COOKIE RECIPE CALCULATOR
+
+The recipe makes 48 cookies with this amount of the ingredients. This program asks the user how many cookies he or she wants to make, and then displays the number of cups of each ingredient for the specified number of cookies.  The ingredients and amounts are in table form with 2 decimal points of precision and the decimal point always appearing. 
