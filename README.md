@@ -12,7 +12,8 @@ Below you will find current projects I have created the C++ Language.
 The purpose of this site is to showcase my skills while inspiring other students to create a similiar portfolio for their personal advancement. 
 
 Cheers!
-Dillon Pontes
+
+-Dillon Pontes
 
 [LinkedIn Profile](https://www.linkedin.com/in/dillonpontes/)
  
