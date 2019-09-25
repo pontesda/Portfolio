@@ -21,17 +21,7 @@ Cheers!
 [WayUp Profile](https://www.wayup.com/profile/DILLON-PONTES-7093998de7/)
 
 
---------------------------------------------------------------------------------------------------------------------------------
-
-# SOFTWARE SALES
-
-##### [View Code](https://github.com/pontesda/Portfolio/blob/master/softwareSales.cpp)
-
-A software company sells a package that retails for $99. Quantity discounts are given at different rates.
-
-This program asks for the number of units sold and computes the total cost of the purchase, displays the discount and determines how many more units are required to be bought to apply the next discount.
-
---------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 # GEOMETRY CALCULATOR
 
@@ -45,7 +35,16 @@ Geometry Calculator
 4.	Quit
 Includes input validation to make sure the user selects a valid menu option and does not input negative numbers for the measurements.
 
---------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+# SOFTWARE SALES
+
+##### [View Code](https://github.com/pontesda/Portfolio/blob/master/softwareSales.cpp)
+
+A software company sells a package that retails for $99. Quantity discounts are given at different rates.
+
+This program asks for the number of units sold and computes the total cost of the purchase, displays the discount and determines how many more units are required to be bought to apply the next discount.
+
+----------------------------------------------------------------------------------------------------------------------------
 
 # SPECTRAL ANALYSIS
 
@@ -55,7 +54,7 @@ If a scientist knows the wavelength of an electromagnetic wave, he or she can de
 This program asks for the wavelength of an electromagnetic wave in meters and then displays 
 what that wave is.
 
---------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 # CELSIUS TO FAHRENHEIT
 
@@ -64,7 +63,7 @@ what that wave is.
 A program that converts Celsius temperatures to Fahrenheit temperatures.
 
 
---------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 # ANGLE CALCULATOR
 
@@ -73,7 +72,7 @@ A program that converts Celsius temperatures to Fahrenheit temperatures.
 A program that asks the user for an angle, entered in radians. The program then displays the sine, cosine, and tangent of the angle. The output is displayed in fixed-point notation, rounded to four decimal places of precision.
 
 
---------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 # MATH TUTOR
 
@@ -82,11 +81,10 @@ A program that asks the user for an angle, entered in radians. The program then 
 A program that can be used as a math tutor for a young student. The program displays two random numbers to be added. The program then pauses while the student works on the problem. When the student is ready to check the answer, he or she can press a key and the program will display the correct solution.
 
 
---------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 # COOKIE RECIPE CALCULATOR
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/cookieRecipeCalculator.cpp)
 
 The recipe makes 48 cookies with this amount of the ingredients. This program asks the user how many cookies he or she wants to make, and then displays the number of cups of each ingredient for the specified number of cookies.  The ingredients and amounts are in table form with 2 decimal points of precision and the decimal point always appearing. 
-
