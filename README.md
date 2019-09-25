@@ -1,8 +1,7 @@
 # C++ Coding Projects
-Coding projects I created in my C++ programming course.
-Below you will find descriptions of the problems I was asked to solved.
+Coding projects I created C++
 
------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 SOFTWARE SALES
 
@@ -10,7 +9,7 @@ A software company sells a package that retails for $99. Quantity discounts are 
 
 This program asks for the number of units sold and computes the total cost of the purchase, displays the discount and determines how many more units are required to be bought to apply the next discount.
 
------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 GEOMETRY CALCULATOR
 
@@ -22,7 +21,7 @@ Geometry Calculator
 4.	Quit
 Includes input validation to make sure the user selects a valid menu option and does not input negative numbers for the measurements.
 
------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 SPECTRAL ANALYSIS
 
@@ -30,7 +29,7 @@ If a scientist knows the wavelength of an electromagnetic wave, he or she can de
 This program asks for the wavelength of an electromagnetic wave in meters and then displays 
 what that wave is. 
 
------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 CELSIUS TO FAHRENHEIT
 
