@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	char cont = 'y';
+	char cont;
 	cout << "Hello young padawan that struggles in math." << endl << "My name is Pythagoras and I will be your math tutor." << endl;
 	cout << "Type your answer and press enter.\nOnly then will I reveal the correct answer..." << endl << endl;
 
