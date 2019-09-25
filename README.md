@@ -1,4 +1,4 @@
-# Intro-To-Computer-Programming
+# C++ Coding Projects
 Coding projects I created in my C++ programming course.
 Below you will find descriptions of the problems I was asked to solved.
 
