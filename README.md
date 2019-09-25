@@ -9,7 +9,7 @@ My goal is to further expand software development and leadership skills in a pro
 
 Below you will find current projects I have created the C++ Language. 
 
-The purpose of this site is to showcase my skills while inspiring other students to create a similiar portfolio for their personal advancement. 
+The purpose of this page is to showcase my skills while collaborating with other developers around the world.
 
 Cheers!
 
