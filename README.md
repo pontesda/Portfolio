@@ -22,7 +22,14 @@ Cheers!
 
 
 ----------------------------------------------------------------------------------------------------------------------------
+# MATH TUTOR
 
+##### [View Code](https://github.com/pontesda/Portfolio/blob/master/mathTutor.cpp)
+
+A program that can be used as a math tutor for a young student. The program displays two random numbers to be added. The program then pauses while the student works on the problem. When the student is ready to check the answer, he or she can press a key and the program will display the correct solution.
+
+
+----------------------------------------------------------------------------------------------------------------------------
 # GEOMETRY CALCULATOR
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/geometryCalculator.cpp)
@@ -46,7 +53,6 @@ A software company sells a package that retails for $99. Quantity discounts are 
 This program asks for the number of units sold and computes the total cost of the purchase, displays the discount and determines how many more units are required to be bought to apply the next discount.
 
 ----------------------------------------------------------------------------------------------------------------------------
-
 # SPECTRAL ANALYSIS
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/spectralAnalysis.cpp)
@@ -56,34 +62,20 @@ This program asks for the wavelength of an electromagnetic wave in meters and th
 what that wave is.
 
 ----------------------------------------------------------------------------------------------------------------------------
-
 # CELSIUS TO FAHRENHEIT
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/farenheitCalculator.cpp)
 
 A program that converts Celsius temperatures to Fahrenheit temperatures.
 
-
 ----------------------------------------------------------------------------------------------------------------------------
-
 # ANGLE CALCULATOR
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/angleCalculator.cpp)
 
 A program that asks the user for an angle, entered in radians. The program then displays the sine, cosine, and tangent of the angle. The output is displayed in fixed-point notation, rounded to four decimal places of precision.
 
-
 ----------------------------------------------------------------------------------------------------------------------------
-
-# MATH TUTOR
-
-##### [View Code](https://github.com/pontesda/Portfolio/blob/master/mathTutor.cpp)
-
-A program that can be used as a math tutor for a young student. The program displays two random numbers to be added. The program then pauses while the student works on the problem. When the student is ready to check the answer, he or she can press a key and the program will display the correct solution.
-
-
-----------------------------------------------------------------------------------------------------------------------------
-
 # COOKIE RECIPE CALCULATOR
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/cookieRecipeCalculator.cpp)
