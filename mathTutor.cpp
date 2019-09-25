@@ -15,7 +15,7 @@ int main()
 
 	secondNumber = (rand() % (MAX_VALUE - MIN_VALUE + 1)) + MIN_VALUE;
 
-	cout << "Hello young padawan who is struggling in math." << endl <<  "My name is Pythagoras and I will be your math tutor." << endl;
+	cout << "Hello young padawan that struggles in math." << endl <<  "My name is Pythagoras and I will be your math tutor." << endl;
 	cout << "Type your answer and press enter.\n Only then will I reveal the correct answer..." << endl;
 	cout << "  " << firstNumber << endl;
 	cout << "+ " << secondNumber << endl;
