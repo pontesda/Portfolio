@@ -33,6 +33,7 @@ Geometry Calculator
 2.	Calculate the Area of a Rectangle
 3.	Calculate the Area of a Triangle
 4.	Quit
+
 Includes input validation to make sure the user selects a valid menu option and does not input negative numbers for the measurements.
 
 ----------------------------------------------------------------------------------------------------------------------------
