@@ -2,9 +2,10 @@
 Coding projects I created in my C++ programming course.
 Below you will find descriptions of the problems I was asked to solved.
 
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 SOFTWARE SALES
+
 A software company sells a package that retails for $99. Quantity discounts are given according to the following table.
 Quantity	Discount
 10 – 19 	20%
