@@ -2,6 +2,13 @@
 
 [Dillon Pontes LinkedIn Profile](https://www.linkedin.com/in/dillonpontes/)
 
+Thank you for visiting my portfolio. I am currently studying Computer Science at Fairleigh Dickinson University with a passion for software development. I want to have a helping hand in creating software to help make the world a better place. Below you will find current projects I have created in an effort to increase my development skills in the C++ Language. 
+
+The purpose of this site is to showcase my skills but also to inspire others to create a similiar portfolio for their personal advancement. 
+
+Cheers!
+
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 # SOFTWARE SALES
