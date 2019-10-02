@@ -38,6 +38,7 @@ int main()
 			else
 			{
 				cin >> amount;
+				outputFile << expenseName << amount;
 				total += amount;
 			}
 			if (total < budget)
