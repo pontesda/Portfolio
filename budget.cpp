@@ -55,6 +55,7 @@ int main()
 					else
 					{
 						outputFile << expenseName << " $" << amount << endl;
+						//Calculating total by adding each individual amount. Program will decide later if under/over budget.
 						total += amount;
 					}
 				}
