@@ -22,6 +22,16 @@ Cheers!
 
 
 ----------------------------------------------------------------------------------------------------------------------------
+# BUDGET ANALYSIS TOOL
+
+##### [View Code](https://github.com/pontesda/Portfolio/blob/master/Budget.cpp)
+
+A program that creates and writes to a file named “Budget.txt”
+The program asks the user to enter the amount that he or she has budgeted for a month.  
+A loop then prompts the user to enter each of his or her expenses for the month and keep a running total.  
+The program writes both the expense name and corresponding expense, along with how much he or she is over-budget or under-budget to the file.
+
+----------------------------------------------------------------------------------------------------------------------------
 # MATH TUTOR
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/mathTutor.cpp)
