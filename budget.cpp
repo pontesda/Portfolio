@@ -28,7 +28,7 @@ int main()
 		cin >> budget;
 		outputFile << "Your budget is $" << budget << "." << endl;
 		// Get the amount of expenses via while loop.
-		while (expenseName != "#")
+		while (true) //Sentinel later in loop to break it.
 		{
 			cout << "Enter your expenses followed by the amount." << endl;
 			cout << "Enter '#' to quit." << endl;
