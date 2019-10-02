@@ -54,6 +54,15 @@ Geometry Calculator
 Includes input validation to make sure the user selects a valid menu option and does not input negative numbers for the measurements.
 
 ----------------------------------------------------------------------------------------------------------------------------
+# SQUARE DISPLAY
+
+##### [View Code](https://github.com/pontesda/Portfolio/blob/master/squareDisplay.cpp)
+
+A program that asks the user for a positive integer no greater than 15. The program then displays a square on the screen using the character ‘X’. 
+The number entered by the user will be the length of each side of the square.
+This program ends after 4 attempts and uses proper data validation tools.
+
+----------------------------------------------------------------------------------------------------------------------------
 # SOFTWARE SALES
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/softwareSales.cpp)
