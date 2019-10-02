@@ -38,16 +38,18 @@ int main()
 			else
 			{
 				cin >> amount;
-				outputFile << expenseName << amount;
+				outputFile << expenseName << " " << amount << endl;
 				total += amount;
 			}
 			if (total < budget)
 			{
-				cout << "You are underbudget." << endl;
+				cout << "You are under budget." << endl;
+				outputFile << "You are under budget." << endl;
 			}
 			else
 			{
 				cout << "You are over budget." << endl;
+				outputFile << "You are over budget." << endl;
 			}
 		}
 		outputFile.close();
