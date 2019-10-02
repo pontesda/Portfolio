@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	ofstream outputFile;
-	int budget, total = 0, amount;
+	int budget, total = 0, amount, underBudget, overBudget;
 	string expenseName;
 	outputFile.open("Budget.txt");
 
@@ -33,12 +33,14 @@ int main()
 		//If the user decides to quit, then the program will determine if the user is over/under budget by comparing the total expenses to the budget.
 		if (total < budget)
 		{
-			cout << "You are under budget." << endl;
+			underBudget = budget - total;
+			cout << "You are under budget by $" << underBudget << "." << endl;
 			outputFile << "You are under budget." << endl;
 		}
 		else
 		{
-			cout << "You are over budget." << endl;
+			overBudget = total - budget;
+			cout << "You are over budget by $" << overBudget << "." << endl;
 			outputFile << "You are over budget." << endl;
 		}
 		//Close the file.
