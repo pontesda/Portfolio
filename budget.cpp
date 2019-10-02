@@ -1,3 +1,17 @@
+/*
+2.	
+Write a program to a file named “Budget.txt” that asks the user to enter the amount that he or she has budgeted for a month.  
+A loop should then prompt the user to enter each of his or her expenses for the month and keep a running total.  
+The program should write both the expense name and corresponding expense, along with how much he or she is over-budget or under-budget to the file.
+EXAMPLE:
+Enter the amount for budgeting: 1200
+Please enter the name of your expense followed by the amount.
+Enter ‘#’ to quit.
+Enter an expense: Gas 15.50
+Enter an expense: Food 250.00
+Enter an expense: #
+Data has been written to the file.
+*/
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -23,13 +37,28 @@ int main()
 			if (expenseName == "#")
 				break;
 			//If user chooses not to quit then the program will process the amount and write the expense to the text file.
-			else
-			{
-				cin >> amount;
-				outputFile << expenseName << " $" << amount << endl;
-				total += amount;
+				else
+				{
+					cin >> amount;
+					//If user enters invalid entry into amount, this will allow the program to restart without writing wrong information into the budget file.
+					if (cin.fail())
+					{
+						cout << "ERROR -- Invalid Input. This information has not been saved to your file." << endl;
+
+						// get rid of failure state
+						cin.clear();
+
+						// discard 'bad' character(s) 
+						cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+					}
+					// If user enters valid entry, the program will write it to the budget file.
+					else
+					{
+						outputFile << expenseName << " $" << amount << endl;
+						total += amount;
+					}
+				}
 			}
-		}
 		//If the user decides to quit, then the program will determine if the user is over/under budget by comparing the total expenses to the budget.
 		if (total < budget)
 		{
