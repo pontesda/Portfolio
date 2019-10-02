@@ -1,65 +1,66 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+#include <fstream>
+#include <string>
 using namespace std;
-
 int main()
 {
-	char cont;
-	cout << "Hello young padawan that struggles in math." << endl << "My name is Pythagoras and I will be your math tutor." << endl;
-	cout << "Type your answer and press enter.\nOnly then will I reveal the correct answer..." << endl << endl;
+	ofstream outputFile;
+	int budget, total = 0, amount, underBudget, overBudget;
+	string expenseName;
+	outputFile.open("Budget.txt");
 
-	do
-	{
-		const int MIN_VALUE = 1, MAX_VALUE = 1000;
-		int firstNumber, secondNumber, userInput, answer, score;
-
-		score = 0;
-
-		unsigned seed = time(0);
-		srand(seed);
-
-		firstNumber = (rand() % (MAX_VALUE - MIN_VALUE + 1)) + MIN_VALUE;
-
-		secondNumber = (rand() % (MAX_VALUE - MIN_VALUE + 1)) + MIN_VALUE;
-		cout << "  " << firstNumber << endl;
-		cout << "+ " << secondNumber << endl;
-		cout << "-------" << endl;
-		cin >> userInput;
-		if (cin.fail())
+		// Get the budget and expenses from the user.
+		cout << "Enter your budget" << endl;
+		cin >> budget;
+		outputFile << "Your budget is $" << budget << "." << endl;
+		// Get the amount of expenses via while loop.
+		while (expenseName != "#")
 		{
-			cout << "ERROR -- You did not enter an integer";
+			cout << "Enter your expenses followed by the amount." << endl;
+			cout << "Enter '#' to quit." << endl;
+			cin >> expenseName;
+			//To end the loop if the user decides to quit.
+			if (expenseName == "#")
+				break;
+			//If user chooses not to quit then the program will process the amount and write the expense to the text file.
+				else
+				{
+					cin >> amount;
+					//If user enters invalid entry into amount, this will allow the program to restart without writing wrong information into the budget file.
+					if (cin.fail())
+					{
+						cout << "ERROR -- Invalid Input. This information has not been saved to your file." << endl;
 
-			// get rid of failure state
-			cin.clear();
+						// get rid of failure state
+						cin.clear();
 
-			// discard 'bad' character(s) 
-			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-		}
-		answer = firstNumber + secondNumber;
-		if (userInput == answer)
+						// discard 'bad' character(s) 
+						cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+					}
+					// If user enters valid entry, the program will write it to the budget file.
+					else
+					{
+						outputFile << expenseName << " $" << amount << endl;
+						total += amount;
+					}
+				}
+			}
+		//If the user decides to quit, then the program will determine if the user is over/under budget by comparing the total expenses to the budget.
+		if (total < budget)
 		{
-			cout << endl << "That is CORRECT!" << endl << "Your score is now " << ++score << endl;
-			cout << "Continue? (Y/N)" << endl;
-			cin >> cont;
-			cout << endl << endl;
-
-		}
-		else if (userInput != answer)
-		{
-			cout << endl << "Not quite. The correct answer is " << answer << endl << "Your score is now " << --score << endl << endl;
-			cout << "Continue? (Y/N)" << endl;
-			cin >> cont;
-			cout << endl << endl;
+			underBudget = budget - total;
+			cout << "You are under budget by $" << underBudget << "." << endl;
+			outputFile << "You are under budget." << endl;
 		}
 		else
 		{
-			cout << "Invalid Entry." << endl << endl;
-			cout << "Continue? (Y/N)" << endl;
-			cin >> cont;
-
+			overBudget = total - budget;
+			cout << "You are over budget by $" << overBudget << "." << endl;
+			outputFile << "You are over budget." << endl;
 		}
-
-	} while (cont == 'Y' || cont == 'y');
-	return 0;
+		//Close the file.
+		outputFile.close();
+		//Infrom the user that the data is written.
+		cout << "Data has been written to the file.";
+		return 0;
 }
