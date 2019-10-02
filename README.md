@@ -24,7 +24,7 @@ Cheers!
 ----------------------------------------------------------------------------------------------------------------------------
 # BUDGET ANALYSIS TOOL
 
-##### [View Code](https://github.com/pontesda/Portfolio/blob/master/Budget.cpp)
+##### [View Code](https://github.com/pontesda/Portfolio/blob/master/budget.cpp)
 
 A program that creates and writes to a file named “Budget.txt”
 The program asks the user to enter the amount that he or she has budgeted for a month.  
