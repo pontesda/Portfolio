@@ -24,8 +24,8 @@ Cheers!
 # Car Simulator
 
 ##### [View Code](https://github.com/pontesda/Portfolio/tree/master/carSimulator)
-This program was a collaboration of my work and 3 other students at Fairliegh Dickinson University.
 
+This program was a collaboration of my work and 3 other students at Fairliegh Dickinson University.
 The classes you we designed are:
 • The FuelGauge Class: This class simulates a fuel gauge. Its responsibilities are
 – To know the car’s current amount of fuel, in gallons.
@@ -48,6 +48,7 @@ We demonstrateed the classes by creating instances of each.
 We simulate filling the car up with fuel, 
 and then run a loop that increments the odometer until the car runs out of fuel.
 During each loop iteration, car’s current mileage and amount of fuel is printed.
+
 ----------------------------------------------------------------------------------------------------------------------------
 # BUDGET ANALYSIS TOOL
 
