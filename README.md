@@ -32,14 +32,6 @@ A loop then prompts the user to enter each of his or her expenses for the month 
 The program writes both the expense name and corresponding expense, along with how much he or she is over-budget or under-budget to the file.
 
 ----------------------------------------------------------------------------------------------------------------------------
-# MATH TUTOR
-
-##### [View Code](https://github.com/pontesda/Portfolio/blob/master/mathTutor.cpp)
-
-A program that can be used as a math tutor for a young student. The program displays two random numbers to be added. The program then pauses while the student works on the problem. When the student is ready to check the answer, he or she can press a key and the program will display the correct solution.
-
-
-----------------------------------------------------------------------------------------------------------------------------
 # GEOMETRY CALCULATOR
 
 ##### [View Code](https://github.com/pontesda/Portfolio/blob/master/geometryCalculator.cpp)
