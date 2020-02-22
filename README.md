@@ -28,9 +28,11 @@ Cheers!
 This program was a collaboration of my work and 3 other students at Fairliegh Dickinson University.
 The classes you we designed are:
 
-The FuelGauge Class: This class simulates a fuel gauge. 
+# The FuelGauge Class: This class simulates a fuel gauge. 
 
-Its responsibilities are to know the car’s current amount of fuel, in gallons.
+Its responsibilities are:
+
+To know the car’s current amount of fuel, in gallons.
 
 To report the car’s current amount of fuel, in gallons.
 
@@ -41,7 +43,7 @@ greater than 0 gallons.
 
 This simulates burning fuel as the car runs.
 
-The Odometer Class: This class simulates the car’s odometer. Its responsibilities are:
+# The Odometer Class: This class simulates the car’s odometer. Its responsibilities are:
 
 To know the car’s current mileage.
 
@@ -58,7 +60,8 @@ We demonstrateed the classes by creating instances of each.
 
 We then simulate filling the car up with fuel when the program is initialized and then run a loop that increments the odometer until the car runs out of fuel.
 
-During each loop iteration, car’s current mileage and amount of fuel is printed.
+During each loop iteration, car’s current mileage and amount of fuel is printed and the user is asked wheater or not
+they would like to continue driving.
 
 ----------------------------------------------------------------------------------------------------------------------------
 # BUDGET ANALYSIS TOOL
